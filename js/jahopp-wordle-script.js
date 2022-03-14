@@ -6,7 +6,7 @@
         $('body').append(wrapper);
 
         $('#jahopp-wordle').on('click', () => {
-            $('#inner-wrapper').load('https://dazzling-thompson-e53964.netlify.app/').done(() => {
+            $('#inner-wrapper').load('https://dazzling-thompson-e53964.netlify.app/').then(() => {
                 $('.jahopp-wordle-wrapper').toggle();
                 $('.jahopp-wordle-close-button').on('click', () => {
                     $('.jahopp-wordle-wrapper').toggle();
