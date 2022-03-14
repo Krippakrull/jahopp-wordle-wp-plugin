@@ -1,0 +1,15 @@
+.jahopp-wordle-wrapper {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    z-index: 2000;
+    height: 500px;
+    width: 400px;
+}
+
+.jahopp-wordle-close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
